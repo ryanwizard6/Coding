@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign 2026</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(-45deg, #dc2626, #ffffff, #1e3a8a, #0f172a);
+            background-size: 400% 400%;
+            animation: gradientMove 5s ease infinite;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .main-card {
+            background: #ffffff;
+            max-width: 1000px;
+            width: 80%;
+            margin: 50px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            border-top: 10px solid #1e3a8a;
+            border-right: 10px solid #1e3a8a;
+        }
+        header {
+            text-align: center;
+            border-bottom: 3px solid #e2e8f0;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+        }
+        header h1 {
+            color: #1e3a8a;
+            font-size: 2.8rem;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+        .ticket-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .candidate-box {
+            background: #f8fafc;
+            padding: 25px;
+            border-radius: 12px;
+            border: 5px solid #1e3a8a;
+            border-top: 10px solid #1e3a8a;
+            border-right: 10px solid #1e3a8a;
+        }
+        .candidate-box.vp {
+            border: 5px solid #dc2626;
+            border-top: 10px solid #dc2626;
+            border-right: 10px solid #dc2626;
+        }
+        h2 {
+            color: #1e3a8a;
+            margin-top: 0;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        .vp h2 {
+            color: #dc2626;
+        }
+        ul {
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .cta-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .image-container {
+            display: block; 
+            margin: 0 auto; 
+            position: absolute; 
+            top: 500%; 
+            left: 80%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #000000;
+            border-radius: 10px;
+        }
+            .image-container2 {
+            display: block; 
+            margin: 0 auto; 
+            position: absolute; 
+            top: 500%;
+            left: 18%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #000000;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .btn {
+            background: #1e3a8a;
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            transition: transform 0.2s, background 0.2s;
+            display: inline-block;
+        }
+        .btn:hover {
+            background: #1e40af;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .ticket-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-card">
+        <header>
+            <h1>The 2026 Presidential Election</h1>
+            <p>"I will Grow, Build, and Strengthen the Great United States Of America"</p>
+            <p> - Fisher Gueterman</p>
+        </header>
+        <div class="ticket-container">
+            <div class="candidate-box">
+                <h2>For President: Fisher Gueterman</h2>
+                <p><strong>Why Fisher?</strong></p>
+                <p><strong></strong></p>
+                <ul>
+                    <li><strong>Environmental Strategy:</strong> He believes that the environment needs to be cleaner and that we need to all use more cleaner energy. </li>
+                    <li><strong>Business Strategy:</strong> He has a strong belief that we should be able to aid the small businesses so that the bigger companies don't take all the spotlight and that the small businesses also get some recognition.</li>
+                    <li><strong>Global Relationships and Immigration:</strong> He wants to make good relationships with all of our countries and make our immigration system more efficient and more affective at getting people into the country.</li>
+                    <li><strong>Domestic Policy:</strong>  Fisher thinks that we need to reduce the debt by reducing spending to areas that already have enough money, and also spend on what the people want and need.</li>
+                    <li><strong>Foreign Policy:</strong>  He believes that we need to increase our bonds with other countries and to limit trade to countries that aren't trustworthy.</li>
+                </ul>
+            </div>
+            <div class="candidate-box vp">
+                <h2>For Running Mate: Camden Koedel</h2>
+                <p><strong>Why Camden?</strong></p>
+                <ul>
+                    <li><strong>Environmental Strategy:</strong>  He believes that we should not pass legislation yet for green house gas emmissions because the technology is not there yet and it takes more energy and green house gases to make ev cars and batteries than traditional gas cars.</strong> </li>
+                    <li><strong>Business Strategy:</strong> Camden believes that we should support american businesses and offer tax cuts to small starter businesses and that we should raise taxes however raise the minimum wage every half census or 5 years to help combat the tax raise and we should improve efforts to help restore the american dream where people can buy a house and live off a single income.</li>
+                    <li><strong>Global Relationships and Immigration: </strong>  He has a strong belief that we should encourage world peace and act as the officers of the world and use our power to our advantage in world peace however we should first focus on our safety over other countries. He thinks that we should also fund ICE and border patrol to help get rid of illegal immigrants but we should however encourage the legal process to come to the countryt and provide outreach to struggling countries.</li>
+                    <li><strong>Domestic Policy:</strong> He believes that we should provide what the people ened by making legislation ban recreational drugs such as nicotine and smoking and that we should be providing education on guns to the people so we can be trained to handle one safely. </li>
+                    <li><strong>Foreign Policy:</strong> He wants a foreign policy prioritizing national interests by balancing state interaction, economic tools, and military strength, while collaborating with Congress on treaties and funding, and addressing global issues like human rights, trade, and security challenges.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-container">
+        <img src="image.png" alt="Fisher and Camden" width="150" height="75">
+    </div>
+            <div class="image-container2">
+        <img src="image copy 2.png" alt="Fisher" width="150" height="75">
+    </div>
+        <div class="cta-container">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8-20GOLHwGt4uL3dl1efV97e5M9qK5iATd6Z2EkAWGlKE2Q/viewform?usp=publish-editor" class="btn">Register to Vote Now</a>
+        </div>
+        <footer style="text-align: center; margin-top: 40px; color: black; font-size: 0.8rem;">
+            Made and Designed By: Ryan Rai
+        </footer>
+        <footer style="text-align: center; margin-top: 5px; color: black; font-size: 1rem;">
+            <b>----------------------------------------------------</b>
+        </footer>
+        <footer style="text-align: center; margin-top: 5px; color: black; font-size: 0.8rem;">
+            Huge Appreciation Goes To Ms. Masanek
+        </footer>
+    </div>
+
+</body>
+</html>
